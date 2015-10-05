@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14D136" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Comments" representedClassName="SupportMate.Comments" syncable="YES">
+        <attribute name="comment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdBy" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="createdOn" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="jobID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="FailHistory" representedClassName="PRODUCT_MODULE_NAME.FailHistory" syncable="YES">
+        <attribute name="failedOn" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="jobId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Holidays" representedClassName="SupportMate.Holidays" syncable="YES">
+        <attribute name="leaveDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="memberID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Issues" representedClassName="SupportMate.Issues" syncable="YES">
+        <attribute name="isResolved" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="issueDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="issueDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="issueId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="issueModule" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="issueResolution" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Jobs" representedClassName="SupportMate.Jobs" syncable="YES">
+        <attribute name="actualTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="didFinish" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isSuccessful" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="jobId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jobName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="scheduledTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TeamMember" representedClassName="SupportMate.TeamMember" syncable="YES">
+        <attribute name="bio" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="designation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="experience" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="memberID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shiftEnd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shiftStart" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Comments" positionX="-3323" positionY="1659" width="128" height="105"/>
+        <element name="FailHistory" positionX="-3330" positionY="1554" width="128" height="75"/>
+        <element name="Holidays" positionX="-3501" positionY="1457" width="306" height="73"/>
+        <element name="Issues" positionX="-3321" positionY="1307" width="128" height="133"/>
+        <element name="Jobs" positionX="-3501" positionY="1308" width="128" height="133"/>
+        <element name="TeamMember" positionX="-3501" positionY="1548" width="128" height="223"/>
+    </elements>
+</model>
